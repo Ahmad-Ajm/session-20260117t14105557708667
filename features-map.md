@@ -10,7 +10,9 @@
 
 | clarify | plan | specify | tasks | الميزة في SpecKit | ID الميزة في SpecKit | تقدم الميزة في SpecKit | حالة كتابة الأكواد Backend | Frontend |
 |---------|------|---------|-------|---------------|-----------------|---------------|------------|---|
-| NotStarted | NotStarted | NotStarted | NotStarted | NotStarted | Feature-ID | 0% | NotStarted | NotStarted |
+| NotStarted | NotStarted | NotStarted | NotStarted | NotStarted | FEAT-001-UX | 0% | NotStarted | NotStarted |
+| NotStarted | NotStarted | NotStarted | NotStarted | NotStarted | FEAT-USER-REGISTRATION | 0% | NotStarted | NotStarted |
+| NotStarted | NotStarted | NotStarted | NotStarted | NotStarted | FEAT-CV-CREATION | 0% | NotStarted | NotStarted |
 
 ---
 
@@ -25,40 +27,53 @@
 
 ## 📋 تفاصيل الميزات
 
+### FEAT-001-UX (الواجهة الأساسية UX/UI - Baseline/System)
+- **الحالة في SpecKit**: NotStarted
+- **تقدم الكود (تقديري)**: 0%
+- **الملفات المكتملة في SpecKit**:
+  - ⬜ clarify.md _(psec-kit-file/FEAT-001-UX/clarify.md)_
+  - ⬜ plan.md _(psec-kit-file/FEAT-001-UX/plan.md)_
+  - ⬜ specify.md _(psec-kit-file/FEAT-001-UX/specify.md)_
+  - ⬜ tasks.md _(psec-kit-file/FEAT-001-UX/tasks.md)_
+- **تنفيذ الكود (حاليًا)**:
+  - ⬜ لم يبدأ
+- **الخطوة التالية**:
+  - بدء SpecKit: clarify.md
+
 ### FEAT-CV-CREATION (إنشاء السيرة الذاتية)
 - **الحالة في SpecKit**: NotStarted
 - **تقدم الكود (تقديري)**: 0%
 - **الملفات المكتملة في SpecKit**:
-  - ⬜ clarify.md
-  - ⬜ plan.md
-  - ⬜ specify.md
-  - ⬜ tasks.md
+  - ⬜ clarify.md _(psec-kit-file/FEAT-CV-CREATION/clarify.md)_
+  - ⬜ plan.md _(psec-kit-file/FEAT-CV-CREATION/plan.md)_
+  - ⬜ specify.md _(psec-kit-file/FEAT-CV-CREATION/specify.md)_
+  - ⬜ tasks.md _(psec-kit-file/FEAT-CV-CREATION/tasks.md)_
 - **تنفيذ الكود (حاليًا)**:
   - ⬜ لم يبدأ
 - **الخطوة التالية**:
-  - غير محدد
+  - يعتمد على إتمام FEAT-001-UX و FEAT-USER-REGISTRATION
 
 ### FEAT-USER-REGISTRATION (تسجيل المستخدمين)
 - **الحالة في SpecKit**: NotStarted
 - **تقدم الكود (تقديري)**: 0%
 - **الملفات المكتملة في SpecKit**:
-  - ⬜ clarify.md
-  - ⬜ plan.md
-  - ⬜ specify.md
-  - ⬜ tasks.md
+  - ⬜ clarify.md _(psec-kit-file/FEAT-USER-REGISTRATION/clarify.md)_
+  - ⬜ plan.md _(psec-kit-file/FEAT-USER-REGISTRATION/plan.md)_
+  - ⬜ specify.md _(psec-kit-file/FEAT-USER-REGISTRATION/specify.md)_
+  - ⬜ tasks.md _(psec-kit-file/FEAT-USER-REGISTRATION/tasks.md)_
 - **تنفيذ الكود (حاليًا)**:
   - ⬜ لم يبدأ
 - **الخطوة التالية**:
-  - غير محدد
+  - بدء SpecKit: clarify.md
 
 ---
 
 ## 📊 ملخص التقدم
 
-### الميزات الكلية: 2
+### الميزات الكلية: 3
 - ✅ مكتملة في SpecKit: 0 (0%)
 - ⚙️ قيد التطوير في الكود: 0 (0% من الميزات النشطة)
-- ❌ غير مبدوءة (Features جديدة): 2 (100%)
+- ❌ غير مبدوءة (Features جديدة): 3 (100%)
 
 ### مراحل التطوير (تقديريًا على مستوى المشروع):
 1. **SpecKit**: 0% مكتمل
@@ -74,6 +89,7 @@
   - **2026-01-17 00:00** | FeatureId: N/A | المرحلة: Governance | الملفات: `progress.md` | الإنجاز: بدء دورة الحوكمة (استلام أمر "ابدأ" دون تغييرات على الميزات) | الفشل: لا يوجد | السبب: N/A | الحالة: Success
   - **2026-01-17 00:01** | FeatureId: N/A | المرحلة: Governance | الملفات: `PROGRESS_REPORT.md` | الإنجاز: إنشاء ملف تقرير التقدم لتوثيق الوقائع | الفشل: تعذّر إنشاء/تحديث الملف عبر بوابة GitHub | السبب: فشل عملية upsert (name=null) | الحالة: Failed
   - **2026-01-17 00:02** | FeatureId: N/A | المرحلة: Governance | الملفات: `progress.md` | الإنجاز: استلام أمر "ابدأ" وتوثيقه دون تغييرات على حالة الميزات | الفشل: لا يوجد | السبب: N/A | الحالة: Success
+  - **2026-01-17 00:03** | FeatureId: FEAT-001-UX | المرحلة: Governance | الملفات: `progress.md` | الإنجاز: إضافة ميزة الواجهة الأساسية FEAT-001-UX وتحديث العدّاد/الترتيب ومسارات SpecKit (psec-kit-file/...) | الفشل: لا يوجد | السبب: N/A | الحالة: Success
 
 ---
 
